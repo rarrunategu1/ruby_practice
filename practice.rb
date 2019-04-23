@@ -32,3 +32,20 @@ floatgpa = 3.2
 booleanismale = true
 booleanistall = false
 nilflaws = nil
+
+puts ""
+puts "Practice with strings and their methods:"
+puts "-----------------------"
+puts "\"Mistakes\" are only learning opportunities."
+puts "FirstLine\nSecondLine"
+intro = "Hello World "
+puts intro
+puts intro.strip().upcase()
+puts "Howdy".upcase()
+puts intro.strip().downcase()
+puts intro.strip().length()
+puts intro.include? "World"
+puts intro[0]
+puts intro[0, 3]
+puts intro.index("W")
+puts intro.index("Wor")
