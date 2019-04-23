@@ -49,3 +49,20 @@ puts intro[0]
 puts intro[0, 3]
 puts intro.index("W")
 puts intro.index("Wor")
+
+puts ""
+puts "Practice with numbers and their methods:"
+puts "-----------------------"
+puts 3
+puts -3
+puts 3 + 3
+puts 3 / 4
+puts 3 % 4
+puts ("The following calc 2^3 power is actually written as 2**3 with an answer of " + (2**3).to_s)
+num = -3.2
+puts num.abs()
+puts num.round()
+puts num.ceil()
+puts num.floor()
+puts ("Using Math.sqrt(3) to get the square root of 3 gives the answers " + (Math.sqrt(3)).to_s)
+puts ("Using Math inside of Ruby - Math.log(1) returns " + (Math.log(1)).to_s)
